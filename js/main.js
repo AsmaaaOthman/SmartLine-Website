@@ -88,7 +88,7 @@
         portfolioIsotope.isotope({ filter: $(this).data('filter') });
     });
 
-    
+
     // Gallery carousel
    $(".gallery-carousel").owlCarousel({
         autoplay: true,

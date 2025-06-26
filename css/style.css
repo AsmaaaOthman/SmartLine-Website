@@ -3,6 +3,7 @@
     --secondary: #5f3026;;
     --light: #F3F3F3;
     --white:#fff;
+    --gray:#6c757d;
     --bs-light:#F3F3F3;
     --dark: #212121;
 }
@@ -42,6 +43,14 @@
     display: block;
   }
   
+  a.link-login{
+    color:var(--gray);
+    font-weight: 600;
+  }
+
+  a.link-login:hover{
+    color: var(--primary);
+  }
 
 /*===== Header =====*/
 
